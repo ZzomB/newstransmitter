@@ -38,10 +38,14 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add _posts/
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "docs: Add daily rewritten articles [skip ci]"
-            git push
+          if [ -d "_posts" ]; then
+            git add _posts/
+            if [ -n "$(git status --porcelain _posts/)" ]; then
+              git commit -m "docs: Add daily rewritten articles [skip ci]"
+              git push
+            else
+              echo "No new articles to commit."
+            fi
           else
-            echo "No new articles to commit."
+            echo "_posts directory does not exist."
           fi

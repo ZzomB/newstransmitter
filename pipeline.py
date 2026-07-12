@@ -168,18 +168,27 @@ def rewrite_with_gemini(original_body):
     # Configure API Key
     genai.configure(api_key=GEMINI_API_KEY)
     
-    # Initialize the model with system instruction
-    model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
-        system_instruction=system_instruction
-    )
+    # Fallback model list: try 2.5-flash, 3.5-flash, then 1.5-flash
+    models_to_try = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-1.5-flash"]
+    last_exception = None
     
-    response = model.generate_content(original_body)
-    
-    # Restrict rate limit
-    time.sleep(5)
-    
-    return response.text
+    for model_name in models_to_try:
+        try:
+            print(f"Trying model: {model_name}...")
+            model = genai.GenerativeModel(
+                model_name=model_name,
+                system_instruction=system_instruction
+            )
+            response = model.generate_content(original_body)
+            # Restrict rate limit
+            time.sleep(5)
+            return response.text
+        except Exception as e:
+            print(f"Model {model_name} failed: {e}")
+            last_exception = e
+            continue
+            
+    raise last_exception if last_exception else ValueError("All models failed to generate content.")
 
 def parse_gemini_output(output_text):
     lines = output_text.strip().split("\n")
