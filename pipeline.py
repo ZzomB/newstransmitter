@@ -155,14 +155,11 @@ def send_consolidated_email(articles_by_section):
     server.quit()
     print("Email sent successfully!")
 
-def rewrite_with_gemini(original_body):
+def rewrite_with_gemini(original_body, art_url):
     print("Requesting rewrite from Gemini API...")
     system_instruction = (
-        "너는 전문적이고 객관적인 시사 애널리스트다. 다음 뉴스 원문을 분석해서 블로그 게시글 형태로 작성해라.\n"
-        "원문의 문장 구조나 표현을 절대 그대로 복사하지 말고, 너만의 언어로 완전히 새롭게 재구성할 것. (저작권 회피)\n"
-        "글의 첫 줄에는 사람들의 시선을 끌 수 있는 명확하고 새로운 **[제목]**을 텍스트로만 반환할 것.\n"
-        "기사에서 확인된 객관적 수치나 팩트(Fact)는 반드시 마크다운 굵게(**내용**) 처리하여 시각적으로 돋보이게 할 것.\n"
-        "팩트 전달 이후, 이 사건이 가지는 의미나 향후 전망을 서술형으로 덧붙일 것."
+        "당신은 객관적인 팩트를 바탕으로 깊이 있는 인사이트를 도출하는 전문 애널리스트 겸 테크/경제 블로거입니다.\n"
+        "당신의 목표는 제공된 뉴스 기사에서 '사실(Fact)'만을 추출한 뒤, 원본의 문장 구조나 표현을 절대 모방하지 않고 당신만의 독창적인 시각과 구조로 완전히 새로운 포스트를 작성하는 것입니다."
     )
     
     # Configure API Key
@@ -172,6 +169,31 @@ def rewrite_with_gemini(original_body):
     models_to_try = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-1.5-flash"]
     last_exception = None
     
+    user_prompt = f"""아래 제공된 AP 뉴스 기사를 바탕으로 다음 규칙을 엄격히 준수하여 마크다운(.md) 형식의 블로그 포스트를 작성해 주세요.
+
+[규칙]
+1. 원본 회피 (Avoid Plagiarism): 원본 기사의 문장, 구문, 문단 구조를 그대로 번역하거나 복사하지 마세요. 사실 관계(숫자, 이름, 사건)만 추출하여 완전히 새로운 흐름으로 재구성하세요.
+2. 가치 창출 (Provide Commentary): 단순한 사건 요약으로 끝내지 마세요. 이 사건이 왜 중요한지, 향후 어떤 영향을 미칠지에 대한 '분석'이나 '시사점(Key Takeaway)' 섹션을 반드시 포함하여 새로운 가치를 더하세요.
+3. 양식 준수 (Format & Cite): 결과물은 반드시 아래 마크다운 구조를 따르며, 마지막에 원본 출처를 명시해야 합니다.
+
+[출력 마크다운 구조]
+# [흥미롭고 새로운 제목을 생성하세요]
+
+## 📌 핵심 요약
+(3~4개의 글머리 기호로 핵심 팩트를 요약)
+
+## 📖 주요 내용
+(새로운 구조와 자신의 언어로 사건의 전말을 서술)
+
+## 💡 시사점 및 분석
+(이 뉴스가 가지는 의미, 업계나 사회에 미칠 영향 등 논평 추가)
+
+---
+* **Source:** [AP News 원본 기사 읽기]({art_url})
+
+[뉴스 원본 텍스트]: 
+{original_body}"""
+
     for model_name in models_to_try:
         try:
             print(f"Trying model: {model_name}...")
@@ -179,7 +201,7 @@ def rewrite_with_gemini(original_body):
                 model_name=model_name,
                 system_instruction=system_instruction
             )
-            response = model.generate_content(original_body)
+            response = model.generate_content(user_prompt)
             # Restrict rate limit
             time.sleep(5)
             return response.text
@@ -191,17 +213,26 @@ def rewrite_with_gemini(original_body):
     raise last_exception if last_exception else ValueError("All models failed to generate content.")
 
 def parse_gemini_output(output_text):
-    lines = output_text.strip().split("\n")
-    if not lines:
+    lines = [line.strip() for line in output_text.strip().split("\n")]
+    # Find the first non-empty line
+    title_index = -1
+    for idx, line in enumerate(lines):
+        if line:
+            title_index = idx
+            break
+            
+    if title_index == -1:
         return "No Title", ""
-    
-    title_line = lines[0].strip()
+        
+    title_line = lines[title_index]
     # Clean decorators from Gemini's title line (like **[제목]**, [제목], #, etc.)
-    title = re.sub(r'^(\*\*|)?\[제목\](\*\*|)?\s*', '', title_line)
-    title = re.sub(r'^#\s*', '', title)
-    title = title.strip(' *"')
+    title = re.sub(r'^#\s*', '', title_line)
+    title = re.sub(r'^(\*\*|)?\[제목\](\*\*|)?\s*', '', title)
+    title = title.strip(' *"[]')
     
-    body = "\n".join(lines[1:]).strip()
+    # Body starts from the next non-empty lines
+    body_lines = lines[title_index + 1:]
+    body = "\n".join(body_lines).strip()
     return title, body
 
 def save_markdown_file(category, index, title, rewritten_body, original_link):
@@ -262,7 +293,7 @@ def main():
     for section_name, articles in articles_by_section.items():
         for i, art in enumerate(articles, start=1):
             try:
-                rewritten_text = rewrite_with_gemini(art["original_body"])
+                rewritten_text = rewrite_with_gemini(art["original_body"], art["url"])
                 title, rewritten_body = parse_gemini_output(rewritten_text)
                 
                 # Double-check: ensure the original text is NOT in the final body
