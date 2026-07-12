@@ -289,8 +289,17 @@ def main():
         send_consolidated_email(articles_by_section)
     except Exception as e:
         print(f"Error sending consolidated email: {e}")
-
     # Step 3 & 4: Rewrite using Gemini and generate Markdown
+    print("Clearing old posts from _posts directory...")
+    if os.path.exists(POSTS_DIR):
+        for f in os.listdir(POSTS_DIR):
+            if f.endswith('.md'):
+                try:
+                    os.remove(os.path.join(POSTS_DIR, f))
+                    print(f"Deleted old post: {f}")
+                except Exception as e:
+                    print(f"Error deleting file {f}: {e}")
+
     for section_name, articles in articles_by_section.items():
         for i, art in enumerate(articles, start=1):
             try:
