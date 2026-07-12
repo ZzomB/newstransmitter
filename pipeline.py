@@ -189,8 +189,8 @@ def rewrite_with_gemini(original_body, art_url):
 (이 뉴스가 가지는 의미, 업계나 사회에 미칠 영향 등 논평 추가)
 
 ---
-* **Source:** [AP News 원본 기사 읽기]({art_url})
-* **Disclaimer:** While referencing AP News reports for factual background, the core of this post is the author's independent analysis and subjective insights.
+**Source:** [AP News 원본 기사 읽기]({art_url})
+**Disclaimer:** While referencing AP News reports for factual background, the core of this post is the author's independent analysis and subjective insights.
 
 [뉴스 원본 텍스트]: 
 {original_body}"""
