@@ -190,7 +190,7 @@ def rewrite_with_gemini(original_body, art_url):
 
 ---
 * **Source:** [AP News 원본 기사 읽기]({art_url})
-* **Disclaimer:** 본 포스트는 AP 통신의 보도 사실을 바탕으로 작성자의 주관적인 분석과 인사이트를 더해 재구성한 독립적인 콘텐츠입니다.
+* **Disclaimer:** While referencing AP News reports for factual background, the core of this post is the author's independent analysis and subjective insights.
 
 [뉴스 원본 텍스트]: 
 {original_body}"""
