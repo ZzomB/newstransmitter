@@ -1,7 +1,8 @@
 import os
 import re
 import time
-from datetime import datetime
+import json
+from datetime import datetime, timedelta
 import requests
 from bs4 import BeautifulSoup
 import google.generativeai as genai
@@ -236,6 +237,25 @@ def parse_gemini_output(output_text):
     body = "\n".join(body_lines).strip()
     return title, body
 
+def extract_summary(rewritten_body):
+    content = rewritten_body.replace('\r\n', '\n')
+    summary_header = "## 📌 핵심 요약"
+    main_header = "## 📖 주요 내용"
+    
+    start_idx = content.find(summary_header)
+    if start_idx != -1:
+        start_idx += len(summary_header)
+        end_idx = content.find(main_header, start_idx)
+        if end_idx != -1:
+            summary = content[start_idx:end_idx].strip()
+        else:
+            summary = content[start_idx:].strip()
+    else:
+        summary = ""
+    
+    summary = re.sub(r'^---|---$', '', summary).strip()
+    return summary
+
 def save_markdown_file(category, index, title, rewritten_body, original_link):
     today_str = datetime.now().strftime("%Y-%m-%d")
     filename = f"{today_str}-ap-{category}-{index}.md"
@@ -290,15 +310,10 @@ def main():
     except Exception as e:
         print(f"Error sending consolidated email: {e}")
     # Step 3 & 4: Rewrite using Gemini and generate Markdown
-    print("Clearing old posts from _posts directory...")
-    if os.path.exists(POSTS_DIR):
-        for f in os.listdir(POSTS_DIR):
-            if f.endswith('.md'):
-                try:
-                    os.remove(os.path.join(POSTS_DIR, f))
-                    print(f"Deleted old post: {f}")
-                except Exception as e:
-                    print(f"Error deleting file {f}: {e}")
+    # We do NOT clear the _posts folder anymore (Strategy A: Never Delete)
+    
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    new_articles_metadata = []
 
     for section_name, articles in articles_by_section.items():
         for i, art in enumerate(articles, start=1):
@@ -306,9 +321,6 @@ def main():
                 rewritten_text = rewrite_with_gemini(art["original_body"], art["url"])
                 title, rewritten_body = parse_gemini_output(rewritten_text)
                 
-                # Double-check: ensure the original text is NOT in the final body
-                # In case Gemini did not rewrite completely, or to be absolutely secure.
-                # Since the instruction is robust, this is just to create the markdown post.
                 save_markdown_file(
                     category=section_name,
                     index=i,
@@ -316,9 +328,95 @@ def main():
                     rewritten_body=rewritten_body,
                     original_link=art["url"]
                 )
+                
+                # Extract summary and gather metadata for index
+                summary_md = extract_summary(rewritten_body)
+                new_articles_metadata.append({
+                    "slug": f"{today_str}-ap-{section_name}-{i}",
+                    "title": title,
+                    "date": today_str,
+                    "category": section_name.capitalize(),
+                    "originalLink": art["url"],
+                    "summaryMd": summary_md
+                })
             except Exception as e:
                 print(f"Error during Gemini rewrite/markdown generation for {art['url']}: {e}")
-                
+
+    # Step 5: Incremental index.json updates (O(1) complexity)
+    index_path = os.path.join(POSTS_DIR, "index.json")
+    existing_articles = []
+    
+    if os.path.exists(index_path):
+        try:
+            with open(index_path, "r", encoding="utf-8") as f:
+                existing_articles = json.load(f)
+            print(f"Loaded {len(existing_articles)} existing entries from index.json.")
+        except Exception as e:
+            print(f"Error loading index.json: {e}")
+            
+    # Fallback to date-search if index.json is empty/missing
+    if not existing_articles:
+        print("index.json not found or empty. Running O(1) date-search fallback...")
+        for offset in range(1, 6):  # Check last 5 days
+            check_date = (datetime.now() - timedelta(days=offset)).strftime("%Y-%m-%d")
+            day_files = []
+            for category in ["world", "business"]:
+                for index in range(1, 10):
+                    filename = f"{check_date}-ap-{category}-{index}.md"
+                    filepath = os.path.join(POSTS_DIR, filename)
+                    if os.path.exists(filepath):
+                        day_files.append((category, index, filepath, check_date))
+            
+            for cat, idx, path_to_file, date_str in day_files:
+                try:
+                    with open(path_to_file, "r", encoding="utf-8") as f:
+                        raw = f.read()
+                    parts = raw.split("---")
+                    if len(parts) >= 3:
+                        fm_raw = parts[1]
+                        body_raw = "---".join(parts[2:])
+                        
+                        title_match = re.search(r'title:\s*"(.*?)"', fm_raw)
+                        link_match = re.search(r'original_link:\s*"(.*?)"', fm_raw)
+                        
+                        title = title_match.group(1) if title_match else "No Title"
+                        link = link_match.group(1) if link_match else ""
+                        
+                        existing_articles.append({
+                            "slug": f"{date_str}-ap-{cat}-{idx}",
+                            "title": title,
+                            "date": date_str,
+                            "category": cat.capitalize(),
+                            "originalLink": link,
+                            "summaryMd": extract_summary(body_raw)
+                        })
+                except Exception as e:
+                    print(f"Error parsing fallback file {path_to_file}: {e}")
+        
+        # Sort fallback articles descending
+        existing_articles.sort(key=lambda x: (x["date"], x["slug"]), reverse=True)
+
+    # Prepend new articles to existing, avoiding duplicates
+    new_articles_metadata.sort(key=lambda x: x["slug"], reverse=True)
+    seen_slugs = set(x["slug"] for x in new_articles_metadata)
+    combined_articles = new_articles_metadata.copy()
+    
+    for art in existing_articles:
+        if art["slug"] not in seen_slugs:
+            combined_articles.append(art)
+            seen_slugs.add(art["slug"])
+            
+    # Keep only the top 12 latest articles (typically Today's 6 + Yesterday's 6)
+    combined_articles = combined_articles[:12]
+    
+    # Save back to index.json
+    try:
+        with open(index_path, "w", encoding="utf-8") as f:
+            json.dump(combined_articles, f, ensure_ascii=False, indent=2)
+        print(f"Successfully saved {len(combined_articles)} entries to index.json.")
+    except Exception as e:
+        print(f"Error saving updated index.json: {e}")
+        
     print("Pipeline execution completed successfully.")
 
 if __name__ == "__main__":
