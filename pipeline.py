@@ -262,8 +262,11 @@ def save_markdown_file(category, index, title, rewritten_body, original_link):
     filename = f"{today_str}-ap-{category}-{index}.md"
     filepath = os.path.join(POSTS_DIR, filename)
     
+    # Safe title replacement to avoid breaking frontmatter YAML double quotes
+    safe_title = title.replace('"', "'")
+    
     frontmatter = f"""---
-title: "{title}"
+title: "{safe_title}"
 date: "{today_str}"
 category: "{category.capitalize()}"
 original_link: "{original_link}"
