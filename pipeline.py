@@ -159,8 +159,9 @@ def send_consolidated_email(articles_by_section):
 def rewrite_with_gemini(original_body, art_url):
     print("Requesting rewrite from Gemini API...")
     system_instruction = (
-        "당신은 객관적인 팩트를 바탕으로 깊이 있는 인사이트를 도출하는 전문 애널리스트 겸 테크/경제 블로거입니다.\n"
-        "당신의 목표는 제공된 뉴스 기사에서 '사실(Fact)'만을 추출한 뒤, 원본의 문장 구조나 표현을 절대 모방하지 않고 당신만의 독창적인 시각과 구조로 완전히 새로운 포스트를 작성하는 것입니다."
+        "You are a professional analyst and technology/economics blogger writing in natural, native-level English.\n"
+        "Your goal is to extract facts from the provided news article and write a completely original blog post in natural, engaging English.\n"
+        "Do not translate Korean sentences literally or use awkward expressions. Write like an experienced native English writer for an international audience."
     )
     
     # Configure API Key
@@ -170,30 +171,30 @@ def rewrite_with_gemini(original_body, art_url):
     models_to_try = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-1.5-flash"]
     last_exception = None
     
-    user_prompt = f"""아래 제공된 AP 뉴스 기사를 바탕으로 다음 규칙을 엄격히 준수하여 마크다운(.md) 형식의 블로그 포스트를 작성해 주세요.
+    user_prompt = f"""Based on the provided AP news article, write a markdown (.md) blog post complying with the following rules:
 
-[규칙]
-1. 원본 회피 (Avoid Plagiarism): 원본 기사의 문장, 구문, 문단 구조를 그대로 번역하거나 복사하지 마세요. 사실 관계(숫자, 이름, 사건)만 추출하여 완전히 새로운 흐름으로 재구성하세요.
-2. 가치 창출 (Provide Commentary): 단순한 사건 요약으로 끝내지 마세요. 이 사건이 왜 중요한지, 향후 어떤 영향을 미칠지에 대한 '분석'이나 '시사점(Key Takeaway)' 섹션을 반드시 포함하여 새로운 가치를 더하세요.
-3. 양식 준수 (Format & Cite): 결과물은 반드시 아래 마크다운 구조를 따르며, 마지막에 원본 출처와 면책조항을 명시해야 합니다.
+[Rules]
+1. Avoid Plagiarism: Do not copy the sentence structures or paragraphs of the original article. Extract the facts (numbers, names, events) and rewrite the narrative from scratch in natural, flowing English.
+2. Provide Commentary: Do not just summarize the event. Include a thoughtful 'Key Takeaways & Analysis' section detailing why this event matters and its future implications.
+3. Formatting: The output must strictly follow the markdown structure below.
 
-[출력 마크다운 구조]
-# [흥미롭고 새로운 제목을 생성하세요]
+[Output Markdown Structure]
+# [Generate an engaging, natural new title]
 
-## 📌 핵심 요약
-(3~4개의 글머리 기호로 핵심 팩트를 요약)
+## 📌 Key Summary
+(3-4 bullet points summarizing the core facts)
 
-## 📖 주요 내용
-(새로운 구조와 자신의 언어로 사건의 전말을 서술)
+## 📖 Main Content
+(Describe the background and details in a new structure and in your own words)
 
-## 💡 시사점 및 분석
-(이 뉴스가 가지는 의미, 업계나 사회에 미칠 영향 등 논평 추가)
+## 💡 Key Takeaways & Analysis
+(Provide professional commentary, impact, or significance of this news)
 
 ---
-**Source:** [AP News 원본 기사 읽기]({art_url})
+**Source:** [Read Original AP News]({art_url})
 **Disclaimer:** While referencing AP News reports for factual background, the core of this post is the author's independent analysis and subjective insights.
 
-[뉴스 원본 텍스트]: 
+[Original News Text]: 
 {original_body}"""
 
     for model_name in models_to_try:
