@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-07-21-ap-world-3",
+    "title": "Siphoned in the Sun: Why the U.S. Froze $1.3 Billion in Disaster Aid for the Virgin Islands",
+    "date": "2026-07-21",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/usvi-housing-authority-funding-suspended-corruption-968c6935229872b7889428bba65c5290",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-21-ap-world-2",
+    "title": "Safety in the Shadow of the Parthenon: Understanding the Recent Acropolis Attack and Its Impact on Greek Tourism",
+    "date": "2026-07-21",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/greece-athens-tourist-stabbings-4bea820db5357c69d5d5d6cb44d7977a",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-21-ap-world-1",
+    "title": "Drawing a Line in the Sand: How Israel’s Quiet Construction of a Massive Earthen Barrier is Redefining Gaza",
+    "date": "2026-07-21",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/israel-gaza-yellow-line-barrier-ceasefire-941ed80f6d4398ce88916f6b08753dd8",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-21-ap-business-3",
+    "title": "$1.3 Billion Frozen: Inside the Corruption Scandal Paralyzing the US Virgin Islands’ Disaster Recovery",
+    "date": "2026-07-21",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/usvi-housing-authority-funding-suspended-corruption-968c6935229872b7889428bba65c5290",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-21-ap-business-2",
+    "title": "Security in the Shadow of Antiquity: What the Athens Acropolis Attack Reveals About Tourist Safety",
+    "date": "2026-07-21",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/greece-athens-tourist-stabbings-4bea820db5357c69d5d5d6cb44d7977a",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-21-ap-business-1",
+    "title": "Digging In: How Israel's Earthen Barrier is Quietly Carving Up Gaza",
+    "date": "2026-07-21",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/israel-gaza-yellow-line-barrier-ceasefire-941ed80f6d4398ce88916f6b08753dd8",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-07-20-ap-world-3",
     "title": "Britain’s Revolving Door Spins Again: Can Andy Burnham Reset the Post-Thatcher Consensus?",
     "date": "2026-07-20",
@@ -45,54 +93,6 @@
     "date": "2026-07-20",
     "category": "Business",
     "originalLink": "https://apnews.com/article/iran-us-hormuz-strait-war-july-20-2026-8b37952906cbec6351fdcc47a0fa6297",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-19-ap-world-3",
-    "title": "Geopolitics on the Pitch: The Triumphs and Tensions of the Historic World Cup Final",
-    "date": "2026-07-19",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/trump-world-cup-final-ad67ea3f25163bbb1d779d17b04da115",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-19-ap-world-2",
-    "title": "The Net Tightens: Inside the Tate Brothers' Miami Arrest and the High-Stakes Geopolitical Battle Ahead",
-    "date": "2026-07-19",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/tate-brothers-andrew-tristan-arrest-us-britain-0e0cb09047b75ce10ae210c86092c287",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-19-ap-world-1",
-    "title": "Back from the Brink? US-Iran Conflict Escalates as Diplomatic Efforts Crumble and Shipping Chokes",
-    "date": "2026-07-19",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-us-hormuz-strait-war-july-19-2026-63996576847424ab5f22887f38037ce8",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-19-ap-business-3",
-    "title": "Geopolitics on the Pitch: Inside Trump’s World Cup Finale and the Future of American Sports Diplomacy",
-    "date": "2026-07-19",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/trump-world-cup-final-ad67ea3f25163bbb1d779d17b04da115",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-19-ap-business-2",
-    "title": "Behind Bars in Miami: Why the Latest Charges Against the Tate Brothers Could Finally End Their Run",
-    "date": "2026-07-19",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/tate-brothers-andrew-tristan-arrest-us-britain-0e0cb09047b75ce10ae210c86092c287",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-19-ap-business-1",
-    "title": "Edge of the Abyss: Why the Rapid Escalation of the US-Iran Conflict Threatens Global Energy and Stability",
-    "date": "2026-07-19",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-us-hormuz-strait-war-july-19-2026-63996576847424ab5f22887f38037ce8",
     "summaryMd": ""
   }
 ]
