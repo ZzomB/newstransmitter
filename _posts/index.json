@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-07-23-ap-world-3",
+    "title": "The Battle for Ukraine's Military Future: Tech Reforms, Street Protests, and a Generational Guard Change",
+    "date": "2026-07-23",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-military-leaders-reform-6f7a6e338b9add87fd53ef99b136e8e1",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-23-ap-world-2",
+    "title": "The Double-Chokepoint Squeeze: How Houthi Red Sea Attacks and US-Iran Escalation Are Pushing Oil Past $100",
+    "date": "2026-07-23",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/iran-us-hormuz-strait-war-60d46bf8c83c43a8f2268b7b87627c55",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-23-ap-world-1",
+    "title": "From Lifesavers to the Streets: How U.S. Foreign Aid Cuts Pushed Nepal's Transgender Health Workers into Survival Sex Work",
+    "date": "2026-07-23",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/usaid-nepal-sex-workers-trump-budget-cuts-d8ea21ca4d43f1598ea54499123d46e0",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-23-ap-business-3",
+    "title": "A Generational Pivot: What Ukraine’s Dramatic Military Shakeup Signals for the War’s Next Phase",
+    "date": "2026-07-23",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-military-leaders-reform-6f7a6e338b9add87fd53ef99b136e8e1",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-23-ap-business-2",
+    "title": "Double Chokepoint Crisis: Houthi Attacks on Saudi Tankers Push Oil to $100 as US-Iran Conflict Widens",
+    "date": "2026-07-23",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/iran-us-hormuz-strait-war-60d46bf8c83c43a8f2268b7b87627c55",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-07-23-ap-business-1",
+    "title": "From Lifesavers to Survivors: The Devastating Human Toll of U.S. Foreign Aid Cuts in Nepal",
+    "date": "2026-07-23",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/usaid-nepal-sex-workers-trump-budget-cuts-d8ea21ca4d43f1598ea54499123d46e0",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-07-22-ap-world-3",
     "title": "Out with the Old Guard: What Ukraine’s Dramatic Military Shakeup Means for the War",
     "date": "2026-07-22",
@@ -45,54 +93,6 @@
     "date": "2026-07-22",
     "category": "Business",
     "originalLink": "https://apnews.com/article/iran-us-hormuz-strait-war-july-22-2026-42ff3de8d135ad72ff3ba4d94cc0921d",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-21-ap-world-3",
-    "title": "Siphoned in the Sun: Why the U.S. Froze $1.3 Billion in Disaster Aid for the Virgin Islands",
-    "date": "2026-07-21",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/usvi-housing-authority-funding-suspended-corruption-968c6935229872b7889428bba65c5290",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-21-ap-world-2",
-    "title": "Safety in the Shadow of the Parthenon: Understanding the Recent Acropolis Attack and Its Impact on Greek Tourism",
-    "date": "2026-07-21",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/greece-athens-tourist-stabbings-4bea820db5357c69d5d5d6cb44d7977a",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-21-ap-world-1",
-    "title": "Drawing a Line in the Sand: How Israel’s Quiet Construction of a Massive Earthen Barrier is Redefining Gaza",
-    "date": "2026-07-21",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/israel-gaza-yellow-line-barrier-ceasefire-941ed80f6d4398ce88916f6b08753dd8",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-21-ap-business-3",
-    "title": "$1.3 Billion Frozen: Inside the Corruption Scandal Paralyzing the US Virgin Islands’ Disaster Recovery",
-    "date": "2026-07-21",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/usvi-housing-authority-funding-suspended-corruption-968c6935229872b7889428bba65c5290",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-21-ap-business-2",
-    "title": "Security in the Shadow of Antiquity: What the Athens Acropolis Attack Reveals About Tourist Safety",
-    "date": "2026-07-21",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/greece-athens-tourist-stabbings-4bea820db5357c69d5d5d6cb44d7977a",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-21-ap-business-1",
-    "title": "Digging In: How Israel's Earthen Barrier is Quietly Carving Up Gaza",
-    "date": "2026-07-21",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/israel-gaza-yellow-line-barrier-ceasefire-941ed80f6d4398ce88916f6b08753dd8",
     "summaryMd": ""
   }
 ]
