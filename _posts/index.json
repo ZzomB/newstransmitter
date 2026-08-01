@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-01-ap-world-3",
+    "title": "Shifting Sands: How the Ceuta Crisis Exposed Europe’s Deepening Fractures on Migration",
+    "date": "2026-08-01",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/migration-spain-ceuta-morocco-d76c6dc9d2da828907a1c04e1d482bbe",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-01-ap-world-2",
+    "title": "Clash in the Cold Waters: What Iceland’s Seizure of an Anti-Whaling Vessel Reveals About the Future of the Industry",
+    "date": "2026-08-01",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/iceland-whaling-paul-watson-bandero-ship-seized-80064e2df900ed79f916608bd3780002",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-01-ap-world-1",
+    "title": "Despair at the Gates of Europe: Inside the Unprecedented Migration Surge into Ceuta",
+    "date": "2026-08-01",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/migrants-spain-ceuta-morocco-d564354dd54e92debf43ce5fe22299f9",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-01-ap-business-3",
+    "title": "A 500-Meter Barrier and a Divided Continent: Inside the Ceuta Border Crisis",
+    "date": "2026-08-01",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/migration-spain-ceuta-morocco-d76c6dc9d2da828907a1c04e1d482bbe",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-01-ap-business-2",
+    "title": "High-Seas Standoff: Why Iceland’s Seizure of an Anti-Whaling Protest Ship Signals a Deeper Geopolitical Clash",
+    "date": "2026-08-01",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/iceland-whaling-paul-watson-bandero-ship-seized-80064e2df900ed79f916608bd3780002",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-01-ap-business-1",
+    "title": "60,000 in 24 Hours: The Ceuta Border Surge and the Grim Reality of North-South Economic Disparity",
+    "date": "2026-08-01",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/migrants-spain-ceuta-morocco-d564354dd54e92debf43ce5fe22299f9",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-07-30-ap-world-3",
     "title": "The $1.7 Million Stench: What a Small Canadian Town’s Battle Against Rotten Fish Tells Us About Industrial Abandonment",
     "date": "2026-07-30",
@@ -45,54 +93,6 @@
     "date": "2026-07-30",
     "category": "Business",
     "originalLink": "https://apnews.com/article/spain-ceuta-tarajal-morocco-migrants-5c864e5f951e2a7cf7a3eac417668e97",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-29-ap-world-3",
-    "title": "The Fragile Truce Shatters: U.S. and Saudi Arabia Launch Joint Strikes in Iraq Following Iranian Escalation",
-    "date": "2026-07-29",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-war-us-trump-saudi-houthis-iraq-8d2ae29300a8dc5495a4ce56c5312bf1",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-29-ap-world-2",
-    "title": "Farewell to a Dublin Troubadour: Glen Hansard’s Legacy of Music, Community, and Soul",
-    "date": "2026-07-29",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/glen-hansard-dies-dublin-motorcycle-crash-2df53656c036a9e39f91514d25538311",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-29-ap-world-1",
-    "title": "Regional Flare-Up: Why the U.S.-Saudi Coordinated Strikes Against Iran-Backed Militias Signal a Dangerous New Phase",
-    "date": "2026-07-29",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-war-us-hormuz-strait-july-29-2026-e31d249ba6443decdd3e63cd00f0fb84",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-29-ap-business-3",
-    "title": "Flames Reignited: Joint US-Saudi Strikes Shatter Fragile Calm Amid Escalating Red Sea and Gulf Tensions",
-    "date": "2026-07-29",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-war-us-trump-saudi-houthis-iraq-8d2ae29300a8dc5495a4ce56c5312bf1",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-29-ap-business-2",
-    "title": "Farewell to an Irish Legend: Remembering the Soulful Legacy of Glen Hansard",
-    "date": "2026-07-29",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/glen-hansard-dies-dublin-motorcycle-crash-2df53656c036a9e39f91514d25538311",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-29-ap-business-1",
-    "title": "Red Line Receding: How the Latest Middle East Flare-Up Pushes Global Energy and Security to the Brink",
-    "date": "2026-07-29",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-war-us-hormuz-strait-july-29-2026-e31d249ba6443decdd3e63cd00f0fb84",
     "summaryMd": ""
   }
 ]
