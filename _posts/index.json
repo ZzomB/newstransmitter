@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-02-ap-world-3",
+    "title": "The Ceuta Border Crisis: A Human Tragedy and the Fractured Politics of European Migration",
+    "date": "2026-08-02",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/spain-ceuta-morocco-migration-border-vox-9960b15a7cf31a0592b09ac47a8eac3f",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-02-ap-world-2",
+    "title": "A Sudden Pivot: Trump Halts Iran Strikes as Gulf Pressure Forces a Diplomatic Detour",
+    "date": "2026-08-02",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/iran-war-trump-saudi-crown-prince-call-814164417aa284dc8a6d34ac22ea1a8e",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-02-ap-world-1",
+    "title": "Close Call in the Gulf: How Regional Diplomacy Pulled Trump Back from the Brink of War with Iran",
+    "date": "2026-08-02",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/trump-iran-strait-hormuz-israel-gaza-mideast-f4c225f6667d9fd171616304701825a0",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-02-ap-business-3",
+    "title": "Pressure Cooker in North Africa: What the Massive Migrant Surge in Ceuta Tells Us About the Future of European Borders",
+    "date": "2026-08-02",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/spain-ceuta-morocco-migration-border-vox-9960b15a7cf31a0592b09ac47a8eac3f",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-02-ap-business-2",
+    "title": "From \"Locked and Loaded\" to a Sudden Pause: Trump’s High-Stakes Gamble for an Iran Peace Deal",
+    "date": "2026-08-02",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/iran-war-trump-saudi-crown-prince-call-814164417aa284dc8a6d34ac22ea1a8e",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-02-ap-business-1",
+    "title": "Pulling Back from the Brink: Why Gulf Allies Convinced Trump to Abort a Massive Strike on Iran",
+    "date": "2026-08-02",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/trump-iran-strait-hormuz-israel-gaza-mideast-f4c225f6667d9fd171616304701825a0",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-01-ap-world-3",
     "title": "Shifting Sands: How the Ceuta Crisis Exposed Europe’s Deepening Fractures on Migration",
     "date": "2026-08-01",
@@ -45,54 +93,6 @@
     "date": "2026-08-01",
     "category": "Business",
     "originalLink": "https://apnews.com/article/migrants-spain-ceuta-morocco-d564354dd54e92debf43ce5fe22299f9",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-30-ap-world-3",
-    "title": "The $1.7 Million Stench: What a Small Canadian Town’s Battle Against Rotten Fish Tells Us About Industrial Abandonment",
-    "date": "2026-07-30",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/canada-abandoned-factory-st-mary-94048cc119edf38393f1a337b4ff5023",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-30-ap-world-2",
-    "title": "No End in Sight: How the US-Iran Conflict is Redrawing Middle East Alliances and Choking Global Energy",
-    "date": "2026-07-30",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-war-us-hormuz-strait-july-30-2026-8dc77ed6a65f389ea4af84635d2473bd",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-30-ap-world-1",
-    "title": "The Battle for Ceuta: Why Spain is Deploying Troops to Its African Outpost",
-    "date": "2026-07-30",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/spain-ceuta-tarajal-morocco-migrants-5c864e5f951e2a7cf7a3eac417668e97",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-30-ap-business-3",
-    "title": "The Sweet Smell of Relief: How a Tiny Canadian Town Defeated a 20-Year Fish Sauce Nightmare",
-    "date": "2026-07-30",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/canada-abandoned-factory-st-mary-94048cc119edf38393f1a337b4ff5023",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-30-ap-business-2",
-    "title": "Five Months In, the US-Iran Conflict Defies \"Quick Victory\" Hopes as Vital Energy Corridors Choke",
-    "date": "2026-07-30",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-war-us-hormuz-strait-july-30-2026-8dc77ed6a65f389ea4af84635d2473bd",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-07-30-ap-business-1",
-    "title": "The Crisis in Ceuta: Why Spain is Deploying the Military to Its North African Border",
-    "date": "2026-07-30",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/spain-ceuta-tarajal-morocco-migrants-5c864e5f951e2a7cf7a3eac417668e97",
     "summaryMd": ""
   }
 ]
