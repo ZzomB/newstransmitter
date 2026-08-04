@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-04-ap-world-3",
+    "title": "Guatemala on High Alert: Fuego Volcano Erupts, Sparking Mass Evacuations and Reviving Past Traumas",
+    "date": "2026-08-04",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/fuego-volcano-guatemala-eruption-evacuation-d4791ca218180a2daa42a3b09673a52c",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-04-ap-world-2",
+    "title": "Chokepoint Diplomacy: Can a New Iran-Oman Deal Reopen the Strait of Hormuz?",
+    "date": "2026-08-04",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/iran-us-hormuz-mideast-gaza-israel-palestinians-ff5f13230ab92b5ae3022f45b2585444",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-04-ap-world-1",
+    "title": "The Ceuta Border Crisis: How Social Media Rumors Fueled a Deadly Migration Surge into Europe",
+    "date": "2026-08-04",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/ceuta-spain-morocco-migration-f3a7f514a7792c39d8b8d5d814fa5158",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-04-ap-business-3",
+    "title": "Under the Shadow of Fuego: What Guatemala’s Latest Volcanic Eruption Tells Us About Disaster Preparedness",
+    "date": "2026-08-04",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/fuego-volcano-guatemala-eruption-evacuation-d4791ca218180a2daa42a3b09673a52c",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-04-ap-business-2",
+    "title": "Diplomacy at the Chokepoint: Can a U.S.-Iran Deal Reopen the Strait of Hormuz?",
+    "date": "2026-08-04",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/iran-us-hormuz-mideast-gaza-israel-palestinians-ff5f13230ab92b5ae3022f45b2585444",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-04-ap-business-1",
+    "title": "Algorithmic Mirages: How Social Media Fueled a Deadly Border Crisis in Spain's Ceuta Enclave",
+    "date": "2026-08-04",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/ceuta-spain-morocco-migration-f3a7f514a7792c39d8b8d5d814fa5158",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-03-ap-world-3",
     "title": "The Edge of Escalation: Behind Trump’s Sudden Retreat from a \"World War II-Scale\" Strike on Iran",
     "date": "2026-08-03",
@@ -45,54 +93,6 @@
     "date": "2026-08-03",
     "category": "Business",
     "originalLink": "https://apnews.com/article/trump-iran-war-us-canceled-strikes-670f077d2cf5de7614cfce4ad40e4aaa",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-02-ap-world-3",
-    "title": "The Ceuta Border Crisis: A Human Tragedy and the Fractured Politics of European Migration",
-    "date": "2026-08-02",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/spain-ceuta-morocco-migration-border-vox-9960b15a7cf31a0592b09ac47a8eac3f",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-02-ap-world-2",
-    "title": "A Sudden Pivot: Trump Halts Iran Strikes as Gulf Pressure Forces a Diplomatic Detour",
-    "date": "2026-08-02",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-war-trump-saudi-crown-prince-call-814164417aa284dc8a6d34ac22ea1a8e",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-02-ap-world-1",
-    "title": "Close Call in the Gulf: How Regional Diplomacy Pulled Trump Back from the Brink of War with Iran",
-    "date": "2026-08-02",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/trump-iran-strait-hormuz-israel-gaza-mideast-f4c225f6667d9fd171616304701825a0",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-02-ap-business-3",
-    "title": "Pressure Cooker in North Africa: What the Massive Migrant Surge in Ceuta Tells Us About the Future of European Borders",
-    "date": "2026-08-02",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/spain-ceuta-morocco-migration-border-vox-9960b15a7cf31a0592b09ac47a8eac3f",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-02-ap-business-2",
-    "title": "From \"Locked and Loaded\" to a Sudden Pause: Trump’s High-Stakes Gamble for an Iran Peace Deal",
-    "date": "2026-08-02",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-war-trump-saudi-crown-prince-call-814164417aa284dc8a6d34ac22ea1a8e",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-02-ap-business-1",
-    "title": "Pulling Back from the Brink: Why Gulf Allies Convinced Trump to Abort a Massive Strike on Iran",
-    "date": "2026-08-02",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/trump-iran-strait-hormuz-israel-gaza-mideast-f4c225f6667d9fd171616304701825a0",
     "summaryMd": ""
   }
 ]
