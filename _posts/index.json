@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-05-ap-world-3",
+    "title": "Collateral Damage: How the Crackdown on Military Families Risks U.S. Readiness and Recruitment",
+    "date": "2026-08-05",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/military-families-immigration-trump-detained-deported-3337173bff1f06153738c217da52e846",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-05-ap-world-2",
+    "title": "The $25 Million Bounty: Inside the U.S. Strategy to Dismantle Mexico’s Most Powerful Cartel",
+    "date": "2026-08-05",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/jalisco-new-generation-cartel-gonzalez-pelon-52c70f6263a6ec324d85473c1d8bde12",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-05-ap-world-1",
+    "title": "Chokepoint Diplomacy: Inside the Looming Deal to Reopen the Strait of Hormuz",
+    "date": "2026-08-05",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/iran-war-us-hormuz-trump-august-5-2026-ecdbd96f2b46c70beb5926d8508f9c55",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-05-ap-business-3",
+    "title": "The High Cost of Duty: Why the Crackdown on Military Families Threatens U.S. National Security",
+    "date": "2026-08-05",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/military-families-immigration-trump-detained-deported-3337173bff1f06153738c217da52e846",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-05-ap-business-2",
+    "title": "Chasing the Heirs of El Mencho: Inside the U.S. Campaign to Dismantle Mexico’s Most Powerful Cartel",
+    "date": "2026-08-05",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/jalisco-new-generation-cartel-gonzalez-pelon-52c70f6263a6ec324d85473c1d8bde12",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-05-ap-business-1",
+    "title": "Chokepoint Diplomacy: Can a Fragile Deal Reopen the Strait of Hormuz?",
+    "date": "2026-08-05",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/iran-war-us-hormuz-trump-august-5-2026-ecdbd96f2b46c70beb5926d8508f9c55",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-04-ap-world-3",
     "title": "Guatemala on High Alert: Fuego Volcano Erupts, Sparking Mass Evacuations and Reviving Past Traumas",
     "date": "2026-08-04",
@@ -45,54 +93,6 @@
     "date": "2026-08-04",
     "category": "Business",
     "originalLink": "https://apnews.com/article/ceuta-spain-morocco-migration-f3a7f514a7792c39d8b8d5d814fa5158",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-03-ap-world-3",
-    "title": "The Edge of Escalation: Behind Trump’s Sudden Retreat from a \"World War II-Scale\" Strike on Iran",
-    "date": "2026-08-03",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/trump-iran-war-gulf-allies-fb81a68f999f4a7b0498ae71cbffe8e5",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-03-ap-world-2",
-    "title": "Brinkmanship in the Gulf: Trump’s High-Stakes Diplomacy, Iranian Backchannels, and the Fight for the Strait of Hormuz",
-    "date": "2026-08-03",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/mideast-iran-us-israel-palestinians-gaza-3b92568b6f2eec283eb51d0327ee682a",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-03-ap-world-1",
-    "title": "The Art of the Escalation: Demystifying Trump's Cycle of Threats and Pauses in the Iran Conflict",
-    "date": "2026-08-03",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/trump-iran-war-us-canceled-strikes-670f077d2cf5de7614cfce4ad40e4aaa",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-03-ap-business-3",
-    "title": "The Red Line Retraction: Why Trump Backed Off His \"Biggest Attack Since WWII\" on Iran",
-    "date": "2026-08-03",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/trump-iran-war-gulf-allies-fb81a68f999f4a7b0498ae71cbffe8e5",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-03-ap-business-2",
-    "title": "De-escalation or Double-Dealing? Trump Claims US-Iran Talks as Tehran Points to Oman",
-    "date": "2026-08-03",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/mideast-iran-us-israel-palestinians-gaza-3b92568b6f2eec283eb51d0327ee682a",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-03-ap-business-1",
-    "title": "Brinkmanship or Chaos? Deciphering Trump’s Cycle of Threats and Tactical Retreats in Iran",
-    "date": "2026-08-03",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/trump-iran-war-us-canceled-strikes-670f077d2cf5de7614cfce4ad40e4aaa",
     "summaryMd": ""
   }
 ]
