@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-07-ap-world-3",
+    "title": "Sinking Ships to Save the Grid: Romania’s Desperate Battle Against a Drying Danube",
+    "date": "2026-08-07",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/romania-europe-nuclear-danube-drought-1ddb89604f06026c938363d57da53071",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-07-ap-world-2",
+    "title": "The Price of Green Gold: Why the U.S. Just Suspended Avocado Inspections in Mexico",
+    "date": "2026-08-07",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/mexico-united-states-avocado-exports-threats-c5cf0ef4a260e6a517fae615c08a1f8b",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-07-ap-world-1",
+    "title": "From Inspirational Icon to Sudden Resignation: The Unraveling of Cambridge’s Youngest Black Professor",
+    "date": "2026-08-07",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/britain-cambridge-professor-arday-culture-wars-black-dddb05e9ade901ec35f85b6b3e7d9056",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-07-ap-business-3",
+    "title": "Rivers Run Dry: Romania Resorts to Sinking Barges to Keep Nuclear Power Online",
+    "date": "2026-08-07",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/romania-europe-nuclear-danube-drought-1ddb89604f06026c938363d57da53071",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-07-ap-business-2",
+    "title": "The High Cost of \"Green Gold\": Why the U.S. Suspended Avocado Inspections in Mexico",
+    "date": "2026-08-07",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/mexico-united-states-avocado-exports-threats-c5cf0ef4a260e6a517fae615c08a1f8b",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-07-ap-business-1",
+    "title": "The Fall of a Cambridge Trailblazer: Inside the Resignation of Jason Arday and the Battle Over Academic Integrity",
+    "date": "2026-08-07",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/britain-cambridge-professor-arday-culture-wars-black-dddb05e9ade901ec35f85b6b3e7d9056",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-05-ap-world-3",
     "title": "Collateral Damage: How the Crackdown on Military Families Risks U.S. Readiness and Recruitment",
     "date": "2026-08-05",
@@ -45,54 +93,6 @@
     "date": "2026-08-05",
     "category": "Business",
     "originalLink": "https://apnews.com/article/iran-war-us-hormuz-trump-august-5-2026-ecdbd96f2b46c70beb5926d8508f9c55",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-04-ap-world-3",
-    "title": "Guatemala on High Alert: Fuego Volcano Erupts, Sparking Mass Evacuations and Reviving Past Traumas",
-    "date": "2026-08-04",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/fuego-volcano-guatemala-eruption-evacuation-d4791ca218180a2daa42a3b09673a52c",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-04-ap-world-2",
-    "title": "Chokepoint Diplomacy: Can a New Iran-Oman Deal Reopen the Strait of Hormuz?",
-    "date": "2026-08-04",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-us-hormuz-mideast-gaza-israel-palestinians-ff5f13230ab92b5ae3022f45b2585444",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-04-ap-world-1",
-    "title": "The Ceuta Border Crisis: How Social Media Rumors Fueled a Deadly Migration Surge into Europe",
-    "date": "2026-08-04",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/ceuta-spain-morocco-migration-f3a7f514a7792c39d8b8d5d814fa5158",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-04-ap-business-3",
-    "title": "Under the Shadow of Fuego: What Guatemala’s Latest Volcanic Eruption Tells Us About Disaster Preparedness",
-    "date": "2026-08-04",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/fuego-volcano-guatemala-eruption-evacuation-d4791ca218180a2daa42a3b09673a52c",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-04-ap-business-2",
-    "title": "Diplomacy at the Chokepoint: Can a U.S.-Iran Deal Reopen the Strait of Hormuz?",
-    "date": "2026-08-04",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-us-hormuz-mideast-gaza-israel-palestinians-ff5f13230ab92b5ae3022f45b2585444",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-04-ap-business-1",
-    "title": "Algorithmic Mirages: How Social Media Fueled a Deadly Border Crisis in Spain's Ceuta Enclave",
-    "date": "2026-08-04",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/ceuta-spain-morocco-migration-f3a7f514a7792c39d8b8d5d814fa5158",
     "summaryMd": ""
   }
 ]
