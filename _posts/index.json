@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-13-ap-world-3",
+    "title": "A Three-Foot Ballot and a Trash Can Helmet: The Surreal Political Drama of Nigel Farage’s Clacton By-Election",
+    "date": "2026-08-13",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/britain-politics-farage-binface-election-burnham-2e5ea570961a48feeb777bb7ed862fcc",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-13-ap-world-2",
+    "title": "Choking the Engine: Ukraine’s High-Stakes Drone Campaign Targets the Heart of Russian Oil",
+    "date": "2026-08-13",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-oil-refinery-8050b4afb5bfd6f4d93c76b4d9795dfa",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-13-ap-world-1",
+    "title": "The West Bank Boiling Point: Why an Unexpected U.S. Rebuke of Settler Violence Matters",
+    "date": "2026-08-13",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/israel-west-bank-settler-violence-palestinian-qusra-huckabee-aad901d8ee7cf54e5e4952bf61a4f6d1",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-13-ap-business-3",
+    "title": "When a Political Gamble Meets Count Binface: Nigel Farage’s Bizarre Bid to Escape Financial Scrutiny",
+    "date": "2026-08-13",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/britain-politics-farage-binface-election-burnham-2e5ea570961a48feeb777bb7ed862fcc",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-13-ap-business-2",
+    "title": "Fueling the Resistance: Ukraine’s Deep-Strike Oil Campaign Meets a Critical Air Defense Deficit",
+    "date": "2026-08-13",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-oil-refinery-8050b4afb5bfd6f4d93c76b4d9795dfa",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-13-ap-business-1",
+    "title": "Trapped in Qusra: Why a West Bank Siege Sparked an Unprecedented US Rebuke",
+    "date": "2026-08-13",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/israel-west-bank-settler-violence-palestinian-qusra-huckabee-aad901d8ee7cf54e5e4952bf61a4f6d1",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-12-ap-world-3",
     "title": "Stealth Shock: ICE’s $20 Million Plan for Electric-Force Gloves Sparks Intense Controversy",
     "date": "2026-08-12",
@@ -45,54 +93,6 @@
     "date": "2026-08-12",
     "category": "Business",
     "originalLink": "https://apnews.com/article/russia-putin-navy-ships-seizures-shadow-fleet-0c184bfe95397fae3b7093139453d1cb",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-11-ap-world-3",
-    "title": "The Passing of Jackie: How a California Bald Eagle Captured the World’s Heart and Showcased Conservation’s Power",
-    "date": "2026-08-11",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/jackie-california-bald-eagle-dies-cdb769385bcf0501db7c78ded8fb7f2c",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-11-ap-world-2",
-    "title": "Out of Control: What the Devastating British Columbia Wildfires Tell Us About the New Normal of Climate Risk",
-    "date": "2026-08-11",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/canada-wildfires-british-columbia-de5556e3d5323dd85ee7ed87a378cf8f",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-11-ap-world-1",
-    "title": "A Milestone of Symbolic Justice: Damascus Court Sentences Ousted Dictator Bashar Assad to Death",
-    "date": "2026-08-11",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/syria-assad-death-trial-d4c486b5d39bbdb41108112b0ddc8e79",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-11-ap-business-3",
-    "title": "The Legacy of Jackie: How California's Most Beloved Bald Eagle Connected Millions to Wildlife Conservation",
-    "date": "2026-08-11",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/jackie-california-bald-eagle-dies-cdb769385bcf0501db7c78ded8fb7f2c",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-11-ap-business-2",
-    "title": "As the West Burns: What the British Columbia Wildfire Crisis Signals for Global Climate Resilience",
-    "date": "2026-08-11",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/canada-wildfires-british-columbia-de5556e3d5323dd85ee7ed87a378cf8f",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-11-ap-business-1",
-    "title": "A Verdict for History: Inside Syria’s Post-Assad War Crimes Sentences and the Quest for Transitional Justice",
-    "date": "2026-08-11",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/syria-assad-death-trial-d4c486b5d39bbdb41108112b0ddc8e79",
     "summaryMd": ""
   }
 ]
