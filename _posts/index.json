@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-14-ap-world-3",
+    "title": "Gulf Escalation: UAE Blames Iran for Tanker Attacks Amid Widening Middle East Turmoil",
+    "date": "2026-08-14",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/iran-uae-us-strait-hormuz-august-14-2026-e8565c608ac5283ec8103c85df924b13",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-14-ap-world-2",
+    "title": "Behind the Canvas: How Forensics and Police Work Recovered Millions in Stolen Renoir, Cézanne, and Matisse Masterpieces",
+    "date": "2026-08-14",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/italy-stolen-paintings-recovered-renoir-cezanne-matisse-7d0989da55b2ae2e204bb7c759a81266",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-14-ap-world-1",
+    "title": "A Bin-Shaped Protest: Nigel Farage Retakes Clacton as Financial Investigations Resume",
+    "date": "2026-08-14",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/britain-politics-farage-binface-clacton-election-reform-uk-16f5c7deff9de672c1c9b1950513b52f",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-14-ap-business-3",
+    "title": "Chokepoints and Coalitions: Drone Attacks in the Strait of Hormuz Spark Fresh Middle East Security Concerns",
+    "date": "2026-08-14",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/iran-uae-us-strait-hormuz-august-14-2026-e8565c608ac5283ec8103c85df924b13",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-14-ap-business-2",
+    "title": "Masterpieces Reclaimed: How Forensic Science Cracked a Multi-Million Dollar Art Heist in Italy",
+    "date": "2026-08-14",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/italy-stolen-paintings-recovered-renoir-cezanne-matisse-7d0989da55b2ae2e204bb7c759a81266",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-14-ap-business-1",
+    "title": "Clacton’s Chaos: Nigel Farage Reclaims His Seat Against Count Binface, But the Crypto Storm Remains",
+    "date": "2026-08-14",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/britain-politics-farage-binface-clacton-election-reform-uk-16f5c7deff9de672c1c9b1950513b52f",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-13-ap-world-3",
     "title": "A Three-Foot Ballot and a Trash Can Helmet: The Surreal Political Drama of Nigel Farage’s Clacton By-Election",
     "date": "2026-08-13",
@@ -45,54 +93,6 @@
     "date": "2026-08-13",
     "category": "Business",
     "originalLink": "https://apnews.com/article/israel-west-bank-settler-violence-palestinian-qusra-huckabee-aad901d8ee7cf54e5e4952bf61a4f6d1",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-12-ap-world-3",
-    "title": "Stealth Shock: ICE’s $20 Million Plan for Electric-Force Gloves Sparks Intense Controversy",
-    "date": "2026-08-12",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/ice-electric-shock-gloves-85ff746d3e0ee5f39e7a9a3f1f576252",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-12-ap-world-2",
-    "title": "Drones Over Novorossiysk: How Ukraine's Black Sea Strategy is Rewriting Naval Warfare and Rattling Global Markets",
-    "date": "2026-08-12",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/russia-ukraine-black-sea-attack-9eadff0d7590923e3d98c99e2b61150b",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-12-ap-world-1",
-    "title": "Escalation on the High Seas: Putin Threatens Retaliatory Seizures of Western Merchant Ships",
-    "date": "2026-08-12",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/russia-putin-navy-ships-seizures-shadow-fleet-0c184bfe95397fae3b7093139453d1cb",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-12-ap-business-3",
-    "title": "Shock Tactics: Why ICE’s $20 Million Plan for Electric-Shock Gloves is Sparking Outrage",
-    "date": "2026-08-12",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/ice-electric-shock-gloves-85ff746d3e0ee5f39e7a9a3f1f576252",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-12-ap-business-2",
-    "title": "Asymmetric Triumph: How Ukraine’s Massive Drone Blitz on Novorossiysk Reshapes the Black Sea Conflict",
-    "date": "2026-08-12",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/russia-ukraine-black-sea-attack-9eadff0d7590923e3d98c99e2b61150b",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-12-ap-business-1",
-    "title": "Chokepoints and Gunboat Diplomacy: Decoding Putin’s Threat to Target Western Shipping",
-    "date": "2026-08-12",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/russia-putin-navy-ships-seizures-shadow-fleet-0c184bfe95397fae3b7093139453d1cb",
     "summaryMd": ""
   }
 ]
