@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-16-ap-world-3",
+    "title": "Sky Full of Shadows: Kyiv’s Massive Drone Surge Brings the War Home to Russia",
+    "date": "2026-08-16",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-01294bf8744282086e8f76c8130e16ba",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-16-ap-world-2",
+    "title": "Restoring the Cradle of Modern Sports: Athens’ Iconic Marble Stadium Gets Its First Deep Clean in Over a Century",
+    "date": "2026-08-16",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/greece-olympic-panathenaic-stadium-kallimarmaro-cleanup-3306e3b722b1e9f1a08b9f07f61ffee0",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-16-ap-world-1",
+    "title": "Deadlocks and Deployment Fatigue: The Human and Political Cost of the Middle East Standoff",
+    "date": "2026-08-16",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/iran-us-israel-lebanon-gaza-uss-lincoln-august-16-2026-98f43f920c102080a3526981cf0dd7b8",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-16-ap-business-3",
+    "title": "The Drone War Explodes: Inside the Massive Aerial Exchange Between Ukraine and Russia—And the NATO Jets Scrambled on the Border",
+    "date": "2026-08-16",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-01294bf8744282086e8f76c8130e16ba",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-16-ap-business-2",
+    "title": "Polishing the Cradle of Modern Sports: Athens' All-Marble Panathenaic Stadium Undergoes Historic Restoration",
+    "date": "2026-08-16",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/greece-olympic-panathenaic-stadium-kallimarmaro-cleanup-3306e3b722b1e9f1a08b9f07f61ffee0",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-16-ap-business-1",
+    "title": "Gulf on the Brink: Inside the U.S. Navy's Endurance Test, Stalled Ceasefires, and a Fractured Middle East",
+    "date": "2026-08-16",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/iran-us-israel-lebanon-gaza-uss-lincoln-august-16-2026-98f43f920c102080a3526981cf0dd7b8",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-15-ap-world-3",
     "title": "Beyond \"Boys on the Hills\": How Settler Violence and Dual Justice are Reshaping the West Bank",
     "date": "2026-08-15",
@@ -45,54 +93,6 @@
     "date": "2026-08-15",
     "category": "Business",
     "originalLink": "https://apnews.com/article/jason-arday-cambridge-professor-london-dead-reports-9036e2b405f5849415534e80bb1b9cb1",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-14-ap-world-3",
-    "title": "Gulf Escalation: UAE Blames Iran for Tanker Attacks Amid Widening Middle East Turmoil",
-    "date": "2026-08-14",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-uae-us-strait-hormuz-august-14-2026-e8565c608ac5283ec8103c85df924b13",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-14-ap-world-2",
-    "title": "Behind the Canvas: How Forensics and Police Work Recovered Millions in Stolen Renoir, Cézanne, and Matisse Masterpieces",
-    "date": "2026-08-14",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/italy-stolen-paintings-recovered-renoir-cezanne-matisse-7d0989da55b2ae2e204bb7c759a81266",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-14-ap-world-1",
-    "title": "A Bin-Shaped Protest: Nigel Farage Retakes Clacton as Financial Investigations Resume",
-    "date": "2026-08-14",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/britain-politics-farage-binface-clacton-election-reform-uk-16f5c7deff9de672c1c9b1950513b52f",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-14-ap-business-3",
-    "title": "Chokepoints and Coalitions: Drone Attacks in the Strait of Hormuz Spark Fresh Middle East Security Concerns",
-    "date": "2026-08-14",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-uae-us-strait-hormuz-august-14-2026-e8565c608ac5283ec8103c85df924b13",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-14-ap-business-2",
-    "title": "Masterpieces Reclaimed: How Forensic Science Cracked a Multi-Million Dollar Art Heist in Italy",
-    "date": "2026-08-14",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/italy-stolen-paintings-recovered-renoir-cezanne-matisse-7d0989da55b2ae2e204bb7c759a81266",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-14-ap-business-1",
-    "title": "Clacton’s Chaos: Nigel Farage Reclaims His Seat Against Count Binface, But the Crypto Storm Remains",
-    "date": "2026-08-14",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/britain-politics-farage-binface-clacton-election-reform-uk-16f5c7deff9de672c1c9b1950513b52f",
     "summaryMd": ""
   }
 ]
