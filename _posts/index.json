@@ -1,5 +1,53 @@
 [
   {
+    "slug": "2026-08-23-ap-world-3",
+    "title": "Cracks in the Coalition: Zelenskyy Confronts Political Strife, Starlink Missteps, and Critical Air Defense Shortfalls",
+    "date": "2026-08-23",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-23-ap-world-2",
+    "title": "Chokepoints and Economic Warfare: Deconstructing the Escalating US-Iran Geopolitical Standoff",
+    "date": "2026-08-23",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-23-ap-world-1",
+    "title": "The Line in the Sand: Why Canada’s Trade Defiance Against Trump is a Litmus Test for Middle Powers",
+    "date": "2026-08-23",
+    "category": "World",
+    "originalLink": "https://apnews.com/article/canada-carney-trump-tariffs-economic-coercion-trade-a180ac85a70bbfb512ea59c224cb6c31",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-23-ap-business-3",
+    "title": "Strained Alliances and Domestic Friction: Inside Volodymyr Zelenskyy’s Candid Wartime Briefing",
+    "date": "2026-08-23",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-23-ap-business-2",
+    "title": "Escalation on the Brink: Iran Warns of \"Seismic\" Retaliation as U.S. Prepares Unprecedented Economic Warfare",
+    "date": "2026-08-23",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f",
+    "summaryMd": ""
+  },
+  {
+    "slug": "2026-08-23-ap-business-1",
+    "title": "Standing Tall or Standing Alone? Inside Canada’s High-Stakes Trade Standoff with Trump",
+    "date": "2026-08-23",
+    "category": "Business",
+    "originalLink": "https://apnews.com/article/canada-carney-trump-tariffs-economic-coercion-trade-a180ac85a70bbfb512ea59c224cb6c31",
+    "summaryMd": ""
+  },
+  {
     "slug": "2026-08-22-ap-world-3",
     "title": "The End of an Era: Why the Canada-U.S. Trade Rift is a Permanent Realignment, Not a Passing Phase",
     "date": "2026-08-22",
@@ -45,54 +93,6 @@
     "date": "2026-08-22",
     "category": "Business",
     "originalLink": "https://apnews.com/article/middle-east-iran-israel-golan-467d9b2970e0b9855ac9a68ef90c8e75",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-21-ap-world-3",
-    "title": "The Price of Resistance: Inside Iran's Fractured War Economy",
-    "date": "2026-08-21",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/iran-economy-sanctions-inflation-73b0278a0307030588cac9f47b3443e0",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-21-ap-world-2",
-    "title": "The £34 Million Backfire: Inside Prince Harry’s Costly Defeat in the War Against the British Tabloids",
-    "date": "2026-08-21",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/prince-harry-lawsuit-daily-mail-elton-81f7450c6419cbbd5a2b573217cf5ab1",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-21-ap-world-1",
-    "title": "Andean Tremors: What Peru’s Latest 6.7 Magnitude Earthquake Teaches Us About Infrastructure Resilience",
-    "date": "2026-08-21",
-    "category": "World",
-    "originalLink": "https://apnews.com/article/peru-earthquake-andes-mountains-0018e250224f1cd86fc4c99cb33a9537",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-21-ap-business-3",
-    "title": "Under the Squeeze: How Iran’s Economic Crisis Shapes a High-Stakes Geopolitical Standoff",
-    "date": "2026-08-21",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/iran-economy-sanctions-inflation-73b0278a0307030588cac9f47b3443e0",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-21-ap-business-2",
-    "title": "A Costly Crusade: Prince Harry and Elton John Hit with Massive £9.5M Bill After Failed Tabloid Battle",
-    "date": "2026-08-21",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/prince-harry-lawsuit-daily-mail-elton-81f7450c6419cbbd5a2b573217cf5ab1",
-    "summaryMd": ""
-  },
-  {
-    "slug": "2026-08-21-ap-business-1",
-    "title": "Seismic Wake-Up Call: What Peru’s Latest 6.7 Magnitude Earthquake Reveals About Regional Resilience",
-    "date": "2026-08-21",
-    "category": "Business",
-    "originalLink": "https://apnews.com/article/peru-earthquake-andes-mountains-0018e250224f1cd86fc4c99cb33a9537",
     "summaryMd": ""
   }
 ]
